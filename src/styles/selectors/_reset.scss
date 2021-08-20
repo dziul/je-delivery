@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  max-height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  flex-grow: 1;
+  // position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--color-background-a);
+
+  overscroll-behavior: contain;
+  -webkit-tap-highlight-color: transparent;
+  overflow-y: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
