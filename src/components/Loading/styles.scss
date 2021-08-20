@@ -1,0 +1,16 @@
+.c-loading {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  // background-color: var(--color-background-d);//remover por enquanto
+  animation: fadeIn 100ms;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+
+  pointer-events: none;
+}
