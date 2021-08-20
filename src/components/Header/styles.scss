@@ -1,0 +1,65 @@
+@import '~/styles/functions';
+
+.c-header {
+  position: sticky;
+  top: 0;
+  padding: spacing(1) 0;
+  background: var(--color-background-a);
+  z-index: 2;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-right,
+    &-left {
+      display: flex;
+      align-items: center;
+    }
+
+    &-left {
+      &-info-address {
+        margin-left: spacing(2);
+        max-width: spacing(32);
+        color: var(--color-font-a);
+        font-size: rem(12);
+        small {
+          display: block;
+          font-size: 100%;
+        }
+
+        address {
+          color: var(--color-font-c);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  &__bag-info {
+    display: flex;
+    align-items: flex-start;
+    color: var(--color-font-a);
+
+    &__icon {
+      font-size: 24px;
+    }
+    &__count {
+      font-size: rem(12);
+      position: relative;
+      top: -4px;
+      color: var(--color-font-c);
+      padding-left: spacing(0.5);
+
+      span {
+        border-top: 1px solid var(--color-font-c);
+        padding-top: spacing(0.25);
+        margin-top: spacing(0.25);
+        display: block;
+      }
+    }
+  }
+}
