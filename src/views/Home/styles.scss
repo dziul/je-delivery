@@ -1,0 +1,24 @@
+.c-home__header {
+  padding: 40px 0;
+  background-color: #fecc00;
+  min-height: 50vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-home__header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.c-home__title {
+  margin-bottom: 24px;
+  font-size: 3rem;
+  text-align: center;
+}
