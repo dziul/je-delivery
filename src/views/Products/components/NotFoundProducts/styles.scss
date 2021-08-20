@@ -1,0 +1,12 @@
+@import '~/styles/functions';
+
+.c-products__notFound {
+  button {
+    margin-top: spacing(4);
+  }
+
+  address {
+    font-size: rem(18);
+    margin-top: spacing(1);
+  }
+}
