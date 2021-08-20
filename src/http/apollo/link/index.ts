@@ -1,10 +1,6 @@
-import { createHttpLink } from '@apollo/client'
+import { from } from '@apollo/client'
 
-const { REACT_APP_GRAPHQL_URL } = process.env
+import httpLink from './httpLink'
+import errorLink from './errorLink'
 
-const httpLink = createHttpLink({
-  uri: REACT_APP_GRAPHQL_URL,
-  credentials: 'same-origin',
-})
-
-export default httpLink
+export default from([errorLink, httpLink])
