@@ -1,0 +1,22 @@
+/**
+ * Sim, os nomes das var não estão desejados, mas apenas para jogo rápido
+ */
+
+:root {
+  --white: rgb(255, 255, 255);
+  --yellow: #ffc500;
+  --color-font-a: var(--white);
+  --color-font-b: #333;
+  --color-font-c: var(--yellow);
+
+  --color-background-a: var(--color-font-b);
+  --color-background-b: var(--white);
+  --color-background-c: rgba(0, 0, 0, 0.05);
+  --color-background-d: rgba(255, 255, 255, 0.5);
+  --color-background-e: var(--yellow);
+  --color-background-f: #eee;
+  --color-background-g: #bbb;
+
+  --color-overlay-a: rgba(0, 0, 0, 0.85);
+  --color-overlay-b: rgba(0, 0, 0, 0.2);
+}
